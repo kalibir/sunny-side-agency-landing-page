@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+
+.info-wrapper {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2em;
+	.image-holder {
+		height: 285px;
+		background-image: url("../../assets/images/mobile/image-transform.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+
+	.text-holder {
+		text-align: center;
+		padding: 1em;
+		h3 {
+			font-family: $fraunces-font-family;
+			margin-top: 2em;
+			font-size: 2em;
+		}
+
+		p {
+			color: $very-dark-grayish-blue;
+			padding: 1em;
+			margin: 1em 0;
+			font-weight: 600;
+		}
+
+		a {
+			color: black;
+			font-family: $fraunces-font-family;
+			font-size: 1.5em;
+			box-shadow: inset 0px -9px $yellow;
+			text-decoration: none;
+		}
+	}
+}
