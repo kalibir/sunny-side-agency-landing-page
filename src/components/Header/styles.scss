@@ -1,0 +1,83 @@
+@import "../../variables.scss";
+
+.header {
+	max-width: 100vw;
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../../assets/images/mobile/image-header.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+
+	.nav {
+		padding: 1em;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-family: $barlow-font-family;
+	}
+
+	.hamburguer-menu {
+		width: 20px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		.bar {
+			display: block;
+			width: 20px;
+			height: 2px;
+			background-color: $white;
+			margin-bottom: 5px;
+		}
+	}
+
+	.mobile-menu {
+		background-color: $white;
+		width: 90vw;
+		text-align: center;
+		padding: 2em;
+		clip-path: polygon(91% 9%, 100% 0, 100% 100%, 0 100%, 0 9%);
+
+		ul {
+			list-style-type: none;
+
+			li {
+				margin: 2em;
+
+				a {
+					text-decoration: none;
+					font-weight: 600;
+					padding: 1em;
+					color: $very-dark-grayish-blue;
+				}
+
+				a:focus {
+					background-color: $yellow;
+					border-radius: 25px;
+					font-family: $fraunces-font-family;
+					font-weight: 900;
+				}
+			}
+		}
+	}
+
+	.header-text {
+		max-width: 100%;
+		padding: 1em;
+		color: $white;
+		font-family: $fraunces-font-family;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h2 {
+			font-size: 2.5em;
+			text-align: center;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			margin: 1em 0;
+		}
+	}
+}
