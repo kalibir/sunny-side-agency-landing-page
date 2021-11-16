@@ -3,6 +3,7 @@ import LeftTextCard from "./components/LeftTextCard";
 import RightTextCard from "./components/RightTextCard";
 import ImageCards from "./components/ImageCards";
 import Testimonials from "./components/Testimonials";
+import Gallery from "./components/Gallery";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<RightTextCard />
 			<ImageCards />
 			<Testimonials />
+			<Gallery />
 		</>
 	);
 }
