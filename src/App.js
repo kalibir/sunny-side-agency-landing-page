@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import LeftTextCard from "./components/LeftTextCard";
 import RightTextCard from "./components/RightTextCard";
 import ImageCards from "./components/ImageCards";
+import Testimonials from "./components/Testimonials";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<LeftTextCard />
 			<RightTextCard />
 			<ImageCards />
+			<Testimonials />
 		</>
 	);
 }
