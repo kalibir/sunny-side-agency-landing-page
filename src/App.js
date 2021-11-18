@@ -4,6 +4,7 @@ import RightTextCard from "./components/RightTextCard";
 import ImageCards from "./components/ImageCards";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<ImageCards />
 			<Testimonials />
 			<Gallery />
+			<Footer />
 		</>
 	);
 }
