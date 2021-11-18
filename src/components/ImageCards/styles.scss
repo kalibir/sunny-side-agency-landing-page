@@ -50,3 +50,41 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.graphic-photo-holder {
+		flex-direction: row;
+		.graphic {
+			background-image: url("../../assets/images/desktop/image-graphic-design.jpg");
+			width: 50%;
+			p {
+				font-size: 1.3em;
+			}
+		}
+		.photo {
+			background-image: url("../../assets/images/desktop/image-photography.jpg");
+			width: 50%;
+			p {
+				font-size: 1.3em;
+			}
+		}
+	}
+}
+@media (min-width: 1024px) {
+	.graphic-photo-holder {
+		.graphic {
+			p {
+				padding: 3em;
+				margin: 0;
+				font-size: 1.3em;
+			}
+		}
+		.photo {
+			p {
+				padding: 3em;
+				margin: 0;
+				font-size: 1.3em;
+			}
+		}
+	}
+}
