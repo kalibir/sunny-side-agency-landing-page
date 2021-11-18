@@ -14,8 +14,8 @@ const ImageCards = () => {
 			<div className='photo'>
 				<h3>Photography</h3>
 				<p>
-					Increase your credibility by getting the most stunning, high-quality
-					photos that improve your business image.
+					Increase your credibility by getting the most <br />
+					stunning, high-quality photos that improve your business image.
 				</p>
 			</div>
 		</div>
