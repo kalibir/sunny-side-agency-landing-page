@@ -20,6 +20,10 @@
 		font-family: $barlow-font-family;
 	}
 
+	.desktop-menu {
+		display: none;
+	}
+
 	.hamburguer-menu {
 		width: 20px;
 		background: none;
@@ -54,7 +58,7 @@
 					color: $very-dark-grayish-blue;
 				}
 
-				a:focus {
+				.contacts {
 					background-color: $yellow;
 					border-radius: 25px;
 					font-family: $fraunces-font-family;
@@ -78,6 +82,56 @@
 			letter-spacing: 0.2em;
 			text-transform: uppercase;
 			margin: 1em 0;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.header {
+		height: 785px;
+		background-image: url("../../assets/images/desktop/image-header.jpg");
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: cover;
+	}
+	.nav > .hamburguer-menu {
+		display: none;
+	}
+	.nav > .mobile-menu {
+		display: none;
+	}
+
+	.nav > .desktop-menu {
+		display: block;
+		ul {
+			display: flex;
+			list-style-type: none;
+			li {
+				margin-left: 2em;
+				a {
+					text-decoration: none;
+					color: $white;
+				}
+			}
+			.contacts {
+				color: #000;
+				background-color: $white;
+				padding: 0.7em;
+				border-radius: 25px;
+				font-family: $fraunces-font-family;
+				font-weight: 900;
+			}
+
+			.contacts:hover {
+				background-color: hsl(200, 100%, 77%);
+				color: $white;
+			}
+		}
+	}
+
+	.header > .header-text {
+		h2 {
+			font-size: 4.5em;
 		}
 	}
 }
