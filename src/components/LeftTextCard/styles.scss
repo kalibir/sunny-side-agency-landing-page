@@ -37,3 +37,50 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.info-wrapper {
+		width: 100%;
+		flex-direction: row-reverse;
+		height: 590px;
+		margin: 0;
+		.image-holder {
+			width: 50%;
+			height: 100%;
+			background-image: url("../../assets/images/desktop/image-transform.jpg");
+		}
+		.text-holder {
+			width: 50%;
+			text-align: left;
+			padding: 5em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			h3 {
+				margin: 0;
+				font-size: 2.3em;
+				align-self: flex-start;
+				padding-right: 1em;
+			}
+			p {
+				font-size: 1em;
+				padding: 0;
+			}
+			a {
+				align-self: flex-start;
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	.info-wrapper > .text-holder {
+		h3 {
+			font-size: 3.3em;
+		}
+		p {
+			font-size: 1.3em;
+		}
+	}
+}
