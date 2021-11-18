@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+footer {
+	max-width: 100vw;
+	background-color: $dark-moderate-cyan;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+	img {
+		height: 40px;
+		margin-bottom: 3em;
+		filter: brightness(20%);
+	}
+
+	ul {
+		margin-bottom: 5em;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		list-style-type: none;
+
+		li > a {
+			text-decoration: none;
+			color: $dark-desaturated-cyan;
+			font-weight: 600;
+		}
+	}
+
+	.social-media-wrapper {
+		width: 80%;
+		display: flex;
+		justify-content: space-around;
+
+		a > img {
+			height: 25px;
+			filter: brightness(60%);
+		}
+	}
+}
