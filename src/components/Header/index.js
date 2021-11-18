@@ -21,7 +21,26 @@ const Header = () => {
 					<span className='bar'></span>
 					<span className='bar'></span>
 				</div>
+				<div className='desktop-menu'>
+					<ul>
+						<li>
+							<a href='#'>About</a>
+						</li>
+						<li>
+							<a href='#'>Services</a>
+						</li>
+						<li>
+							<a href='#'>Projects</a>
+						</li>
+						<li>
+							<a className='contacts' href='#'>
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
+
 			{open ? (
 				<div className='mobile-menu'>
 					<ul>
@@ -35,7 +54,9 @@ const Header = () => {
 							<a href='#'>Projects</a>
 						</li>
 						<li>
-							<a href='#'>Contact</a>
+							<a className='contacts' href='#'>
+								Contact
+							</a>
 						</li>
 					</ul>
 				</div>
