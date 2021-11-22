@@ -13,7 +13,7 @@ const Header = () => {
 	return (
 		<div className='header'>
 			<div className='nav'>
-				<a href='#'>
+				<a href='https://www.frontendmentor.io/home'>
 					<img src={logo} alt='logo' />
 				</a>
 				<div className='hamburguer-menu' onClick={handleClick}>
@@ -24,16 +24,16 @@ const Header = () => {
 				<div className='desktop-menu'>
 					<ul>
 						<li>
-							<a href='#'>About</a>
+							<a href='https://www.frontendmentor.io/home'>About</a>
 						</li>
 						<li>
-							<a href='#'>Services</a>
+							<a href='https://www.frontendmentor.io/home'>Services</a>
 						</li>
 						<li>
-							<a href='#'>Projects</a>
+							<a href='https://www.frontendmentor.io/home'>Projects</a>
 						</li>
 						<li>
-							<a className='contacts' href='#'>
+							<a className='contacts' href='https://www.frontendmentor.io/home'>
 								Contact
 							</a>
 						</li>
@@ -45,16 +45,16 @@ const Header = () => {
 				<div className='mobile-menu'>
 					<ul>
 						<li>
-							<a href='#'>About</a>
+							<a href='https://www.frontendmentor.io/home'>About</a>
 						</li>
 						<li>
-							<a href='#'>Services</a>
+							<a href='https://www.frontendmentor.io/home'>Services</a>
 						</li>
 						<li>
-							<a href='#'>Projects</a>
+							<a href='https://www.frontendmentor.io/home'>Projects</a>
 						</li>
 						<li>
-							<a className='contacts' href='#'>
+							<a className='contacts' href='https://www.frontendmentor.io/home'>
 								Contact
 							</a>
 						</li>
@@ -63,7 +63,7 @@ const Header = () => {
 			) : null}
 			<div className='header-text'>
 				<h2>We are creatives</h2>
-				<img src={arrow} />
+				<img src={arrow} alt='arrow' />
 			</div>
 		</div>
 	);

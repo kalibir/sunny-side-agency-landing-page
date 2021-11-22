@@ -12,26 +12,26 @@ const Footer = () => {
 			<img src={logo} alt='logo' />
 			<ul>
 				<li>
-					<a href='#'>About</a>
+					<a href='https://www.frontendmentor.io/home'>About</a>
 				</li>
 				<li>
-					<a href='#'>Services</a>
+					<a href='https://www.frontendmentor.io/home'>Services</a>
 				</li>
 				<li>
-					<a href='#'>Projects</a>
+					<a href='https://www.frontendmentor.io/home'>Projects</a>
 				</li>
 			</ul>
 			<div className='social-media-wrapper'>
-				<a href='#'>
+				<a href='https://www.frontendmentor.io/home'>
 					<img src={facebook} alt='facebook' />
 				</a>
-				<a href='#'>
+				<a href='https://www.frontendmentor.io/home'>
 					<img src={instagram} alt='instagram' />
 				</a>
-				<a href='#'>
+				<a href='https://www.frontendmentor.io/home'>
 					<img src={twitter} alt='twitter' />
 				</a>
-				<a href='#'>
+				<a href='https://www.frontendmentor.io/home'>
 					<img src={pinterest} alt='pinterest' />
 				</a>
 			</div>
