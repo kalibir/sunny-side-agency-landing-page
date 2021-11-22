@@ -25,6 +25,10 @@ footer {
 			color: $dark-desaturated-cyan;
 			font-weight: 600;
 		}
+
+		li > a:hover {
+			color: $white;
+		}
 	}
 
 	.social-media-wrapper {
@@ -35,6 +39,44 @@ footer {
 		a > img {
 			height: 25px;
 			filter: brightness(60%);
+		}
+
+		svg > path {
+			fill: $dark-desaturated-cyan;
+		}
+		path:hover {
+			fill: $white;
+			cursor: pointer;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	footer {
+		ul {
+			width: 45%;
+		}
+		.social-media-wrapper {
+			width: 35%;
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	footer {
+		ul {
+			width: 20%;
+		}
+		.social-media-wrapper {
+			width: 20%;
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	footer {
+		.social-media-wrapper {
+			width: 15%;
 		}
 	}
 }
