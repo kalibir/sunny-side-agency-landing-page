@@ -54,3 +54,64 @@
 		}
 	}
 }
+
+@media (min-width: 728px) {
+	.graphic-photo-holder {
+		flex-direction: row;
+		.graphic-design {
+			display: block;
+			background-image: url("../../assets/images/desktop/image-graphic-design.jpg");
+			background-position: top;
+			background-size: cover;
+			width: 50%;
+			.text-wrapper {
+				padding: 1em;
+			}
+		}
+		.photography {
+			display: block;
+			background-image: url("../../assets/images/desktop/image-photography.jpg");
+			background-position: top;
+			background-size: cover;
+			width: 50%;
+			.text-wrapper {
+				padding: 1em;
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	.graphic-photo-holder {
+		.graphic-design {
+			.text-wrapper {
+				padding: 1em 3em;
+			}
+		}
+		.photography {
+			.text-wrapper {
+				padding: 1em 3em;
+			}
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	.graphic-photo-holder {
+		.graphic-design {
+			display: flex;
+			align-items: center;
+			.text-wrapper {
+				width: 60%;
+			}
+		}
+		.photography {
+			display: inline-flex;
+			align-items: center;
+			justify-content: normal; /* neede to keep text aligned with the left div*/
+			.text-wrapper {
+				width: 60%;
+			}
+		}
+	}
+}

@@ -19,7 +19,7 @@ const ImageCards = () => {
 					<h3>Photography</h3>
 					<p>
 						Increase your credibility by getting the most stunning, high-quality
-						photos that improve your business image.n.
+						photos that improve your business image.
 					</p>
 				</div>
 			</div>
