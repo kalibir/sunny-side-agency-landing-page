@@ -1,6 +1,22 @@
-.gallery-wrapper {
+.gallery-wrapper-mobile {
 	img {
 		vertical-align: bottom;
 		width: 50%;
+	}
+}
+
+.gallery-wrapper-desktop {
+	display: none;
+}
+@media (min-width: 768px) {
+	.gallery-wrapper-mobile {
+		display: none;
+	}
+	.gallery-wrapper-desktop {
+		max-width: 100%;
+		display: flex;
+		img {
+			width: 25%;
+		}
 	}
 }
