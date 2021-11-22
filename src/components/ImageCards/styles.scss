@@ -3,87 +3,53 @@
 .graphic-photo-holder {
 	display: flex;
 	flex-direction: column;
-
-	.graphic {
+	.graphic-design {
 		background-image: url("../../assets/images/mobile/image-graphic-design.jpg");
-		height: 600px;
 		background-position: top;
 		background-size: cover;
-		text-align: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		h3 {
-			font-family: $fraunces-font-family;
+		.text-wrapper {
 			color: $very-dark-desaturated-blue;
-			font-size: 2em;
-			font-weight: 900;
-		}
-		p {
-			color: $very-dark-grayish-blue;
 			padding: 1em;
-			margin: 1em 0;
-			font-weight: 600;
+			text-align: center;
+			margin-top: 30em;
+			h3 {
+				font-family: $fraunces-font-family;
+				font-size: 2em;
+				font-weight: 900;
+			}
+
+			p {
+				color: $very-dark-grayish-blue;
+				padding: 1em;
+				font-weight: 600;
+			}
 		}
 	}
-
-	.photo {
+	.photography {
 		background-image: url("../../assets/images/mobile/image-photography.jpg");
-		height: 600px;
 		background-position: top;
 		background-size: cover;
-		text-align: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		h3 {
-			font-family: $fraunces-font-family;
+		.text-wrapper {
 			color: $very-dark-desaturated-blue;
-			font-size: 2em;
-			font-weight: 900;
-		}
-		p {
-			color: $very-dark-grayish-blue;
 			padding: 1em;
-			margin: 1em 0;
-			font-weight: 600;
-		}
-	}
-}
+			text-align: center;
+			margin-top: 30em;
+			h3 {
+				font-family: $fraunces-font-family;
+				font-size: 2em;
+				font-weight: 900;
+			}
 
-@media (min-width: 768px) {
-	.graphic-photo-holder {
-		flex-direction: row;
-		.graphic {
-			background-image: url("../../assets/images/desktop/image-graphic-design.jpg");
-			width: 50%;
 			p {
-				font-size: 1.3em;
-			}
-		}
-		.photo {
-			background-image: url("../../assets/images/desktop/image-photography.jpg");
-			width: 50%;
-			p {
-				font-size: 1.3em;
-			}
-		}
-	}
-}
-@media (min-width: 1024px) {
-	.graphic-photo-holder {
-		.graphic {
-			p {
-				padding: 3em;
-				margin: 0;
-				font-size: 1.3em;
-			}
-		}
-		.photo {
-			p {
-				padding: 3em;
-				margin: 0;
-				font-size: 1.3em;
+				color: $very-dark-grayish-blue;
+				padding: 1em;
+				font-weight: 600;
 			}
 		}
 	}
