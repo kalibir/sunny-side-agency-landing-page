@@ -41,3 +41,15 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.testimonials-name {
+		margin: 1em;
+		margin-top: 5em;
+	}
+	.testimonials-wrapper {
+		width: 100%;
+		margin-bottom: 5em;
+		flex-direction: row;
+	}
+}
