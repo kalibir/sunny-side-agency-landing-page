@@ -12,7 +12,7 @@ const LeftTextCard = () => {
 					grow fast. Engage your clients through compelling visuals that do most
 					of the marketing for you.
 				</p>
-				<a href='#'>Learn more</a>
+				<a href='https://www.frontendmentor.io/home'>Learn more</a>
 			</div>
 		</div>
 	);

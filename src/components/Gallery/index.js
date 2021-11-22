@@ -13,16 +13,16 @@ const Gallery = () => {
 	return (
 		<>
 			<div className='gallery-wrapper-mobile'>
-				<img src={bottle} />
-				<img src={orange} />
-				<img src={cone} />
-				<img src={cubes} />
+				<img src={bottle} alt='bottle' />
+				<img src={orange} alt='orange' />
+				<img src={cone} alt='cone' />
+				<img src={cubes} alt='cubes' />
 			</div>
 			<div className='gallery-wrapper-desktop'>
-				<img src={bottleDesktop} />
-				<img src={orangeDesktop} />
-				<img src={coneDesktop} />
-				<img src={cubesDesktop} />
+				<img src={bottleDesktop} alt='bottle' />
+				<img src={orangeDesktop} alt='orange' />
+				<img src={coneDesktop} alt='cone' />
+				<img src={cubesDesktop} alt='cubes' />
 			</div>
 		</>
 	);

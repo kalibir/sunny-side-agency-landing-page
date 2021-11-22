@@ -13,7 +13,7 @@ const RightTextCard = () => {
 					copywriters, we’ll <br />
 					build and extend your brand in digital places.
 				</p>
-				<a href='#'>Learn more</a>
+				<a href='https://www.frontendmentor.io/home'>Learn more</a>
 			</div>
 		</div>
 	);
