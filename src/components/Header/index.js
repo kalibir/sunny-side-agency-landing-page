@@ -16,11 +16,19 @@ const Header = () => {
 				<a href='https://www.frontendmentor.io/home'>
 					<img src={logo} alt='logo' />
 				</a>
-				<div className='hamburguer-menu' onClick={handleClick}>
-					<span className='bar'></span>
-					<span className='bar'></span>
-					<span className='bar'></span>
-				</div>
+				<button className='hamburguer-menu' onClick={handleClick}>
+					<svg
+						className='hamburguer-menu'
+						width='24'
+						height='18'
+						xmlns='http://www.w3.org/2000/svg'>
+						<path
+							d='M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z'
+							fill='#FFF'
+							fill-rule='evenodd'
+						/>
+					</svg>
+				</button>
 				<div className='desktop-menu'>
 					<ul>
 						<li>
